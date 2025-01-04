@@ -20,27 +20,27 @@ This project is a personal remake of J-GO, a team-based application, with refine
 5. **Recommendation Outputs**: Displayed examples of recommendation outputs.
 
 ## File Structure
-project/
-│
-├── data/                                     # Folder with data files
-│   ├── raw_data/                             # Folder of raw data files from Kaggle
-│   │   ├── dataset_pariwisata_yogyakarta     # Folder of raw dataset "dataset_pariwisata_yogyakarta"
-│   │   │   ├── tour.csv
-│   │   │   ├── tour_rating.csv
-│   │   │   └── user.csv
-│   │   ├── indonesia_tourism_destination     # Folder of raw dataset "indonesia_tourism_destination"
-│   │   │   ├── package_tourism.csv
-│   │   │   ├── tourism_rating.csv
-│   │   │   ├── tourism_with_id.csv
-│   │   │   └── user.csv
-│   │   └── yogyakarta_tourism_place          # Folder of raw dataset "yogyakarta_tourism_place"
-│   │       └── raw_data.csv
-│   ├── data.csv                              # Preprocessed data for machine learning model
-│   ├── preprocessing_data.ipynb              # Notebook file of preprocessing data steps
-│   └── README.md                             # Further explanation about the preprocessing data steps
-├── models/                                   # Folder with machine learning models
-│   ├── collaborative_filtering_model.ipynb   # Notebook file of developing model steps
-│   ├── jgo.h5                                # Model file in h5 (HDF5) format
-│   ├── jgo.pkl                               # Model file in pkl (Pickle) format
-│   └── README.md                             # Further explanation about the developing model steps
-└── README.md                                 # Project documentation
+project/  
+│  
+├── data/                                     # Folder with data files  
+│   ├── raw_data/                             # Folder of raw data files from Kaggle  
+│   │   ├── dataset_pariwisata_yogyakarta     # Folder of raw dataset "dataset_pariwisata_yogyakarta"  
+│   │   │   ├── tour.csv  
+│   │   │   ├── tour_rating.csv  
+│   │   │   └── user.csv  
+│   │   ├── indonesia_tourism_destination     # Folder of raw dataset "indonesia_tourism_destination"  
+│   │   │   ├── package_tourism.csv  
+│   │   │   ├── tourism_rating.csv  
+│   │   │   ├── tourism_with_id.csv  
+│   │   │   └── user.csv  
+│   │   └── yogyakarta_tourism_place          # Folder of raw dataset "yogyakarta_tourism_place"  
+│   │       └── raw_data.csv  
+│   ├── data.csv                              # Preprocessed data for machine learning model  
+│   ├── preprocessing_data.ipynb              # Notebook file of preprocessing data steps  
+│   └── README.md                             # Further explanation about the preprocessing data steps  
+├── models/                                   # Folder with machine learning models  
+│   ├── collaborative_filtering_model.ipynb   # Notebook file of developing model steps  
+│   ├── jgo.h5                                # Model file in h5 (HDF5) format  
+│   ├── jgo.pkl                               # Model file in pkl (Pickle) format  
+│   └── README.md                             # Further explanation about the developing model steps  
+└── README.md                                 # Project documentation  
