@@ -3,7 +3,7 @@ This step involves preparing the dataset for use in the travel recommendation mo
 
 ## Tools
 - **Visual Studi Code**: An IDE for writing, debugging, and running Python scripts in a streamlined development environment.
-- **Python**: The programming language used for data preprocessing that offers flexibility and a vast ecosystem of libraries.
+- **Jupyter Notebook**: A code documentation tool that allows the use of both Markdown for text and Python for coding.
 
 ## Python Libraries
 - **os**: Library for interacting with the local operating system, including reading raw data files.
