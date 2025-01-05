@@ -5,7 +5,7 @@ This project is a personal remake of J-GO, a team-based application, with refine
 - Problem: Low engagement and accessibility in some tourist attractions in Daerah Istimewa Yogyakarta.
 - Goal: Personalized travel recommendations with a dual-language feature.
 - Method: Collaborative filtering tailored in the machine learning model.
-- Results:
+- Results: Achieved high prediction accuracy with RMSE of 0.22 and MAE of 0.16, indicating minimal error in predicting user preferences on a 1-5 integer rating scale.
 
 ## Raw Datasets
 - [Kaggle: Dataset Pariwisata Yogyakarta](https://www.kaggle.com/datasets/saufan/dataset-pariwisata-yogyakarta)
@@ -20,20 +20,21 @@ This project is a personal remake of J-GO, a team-based application, with refine
 5. **Recommendation Outputs**: Displayed examples of recommendation outputs.
 
 ## File Structure
-project/  
+```
+J-GO_Travel-Recommendation/  
 │  
 ├── data/                                     # Folder with data files  
 │   ├── raw_data/                             # Folder of raw data files from Kaggle  
-│   │   ├── dataset_pariwisata_yogyakarta     # Folder of raw dataset "dataset_pariwisata_yogyakarta"  
+│   │   ├── dataset_pariwisata_yogyakarta     # Raw dataset "dataset_pariwisata_yogyakarta"  
 │   │   │   ├── tour.csv  
 │   │   │   ├── tour_rating.csv  
 │   │   │   └── user.csv  
-│   │   ├── indonesia_tourism_destination     # Folder of raw dataset "indonesia_tourism_destination"  
+│   │   ├── indonesia_tourism_destination     # Raw dataset "indonesia_tourism_destination"  
 │   │   │   ├── package_tourism.csv  
 │   │   │   ├── tourism_rating.csv  
 │   │   │   ├── tourism_with_id.csv  
 │   │   │   └── user.csv  
-│   │   └── yogyakarta_tourism_place          # Folder of raw dataset "yogyakarta_tourism_place"  
+│   │   └── yogyakarta_tourism_place          # Raw dataset "yogyakarta_tourism_place"  
 │   │       └── raw_data.csv  
 │   ├── data.csv                              # Preprocessed data for machine learning model  
 │   ├── preprocessing_data.ipynb              # Notebook file of preprocessing data steps  
@@ -43,4 +44,5 @@ project/
 │   ├── jgo.h5                                # Model file in h5 (HDF5) format  
 │   ├── jgo.pkl                               # Model file in pkl (Pickle) format  
 │   └── README.md                             # Further explanation about the developing model steps  
-└── README.md                                 # Project documentation  
+└── README.md                                 # Project documentation
+```
