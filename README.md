@@ -9,8 +9,8 @@ This project is a personal remake of J-GO, a team-based application, with refine
 
 ## Raw Datasets
 - [Kaggle: Dataset Pariwisata Yogyakarta](https://www.kaggle.com/datasets/saufan/dataset-pariwisata-yogyakarta)
-- [Kaggle:Indonesia Tourism Destination](https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-destination)
-- [Kaggle:Yogyakarta Tourism Place](https://www.kaggle.com/datasets/mrafif/yogyakarta-tourism-place)
+- [Kaggle: Indonesia Tourism Destination](https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-destination)
+- [Kaggle: Yogyakarta Tourism Place](https://www.kaggle.com/datasets/mrafif/yogyakarta-tourism-place)
 
 ## Process Overview
 1. **Data Gathering**: Collected tourist attractions and user datasets.
