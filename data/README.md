@@ -2,7 +2,7 @@
 This step involves preparing the dataset for use in the travel recommendation model by ensuring consistency and readiness for further use in modeling.
 
 ## Tools
-- **Visual Studi Code**: An IDE for writing, debugging, and running Python scripts in a streamlined development environment.
+- **Visual Studio Code**: An IDE for writing, debugging, and running Python scripts in a streamlined development environment.
 - **Jupyter Notebook**: A code documentation tool that allows the use of both Markdown for text and Python for coding.
 
 ## Python Libraries
