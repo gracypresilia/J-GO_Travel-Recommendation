@@ -1,5 +1,5 @@
 # J-GO_Travel-Recommendation
-This project is a personal remake of J-GO, a team-based application, with refinements in the datasets and machine learning model. The goal is to provide personalized travel recommendations using machine learning techniques.
+This project is a personal remake of J-GO (Jogja Uncovered), a team-based application, with refinements in the datasets and machine learning model. The goal is to provide personalized travel recommendations using machine learning techniques.
 
 ## Key Points
 - **Problem**: Low engagement and accessibility in some tourist attractions in Daerah Istimewa Yogyakarta.
